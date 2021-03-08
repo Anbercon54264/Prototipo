@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: rgba(71,189,92,255);
+}
+.navBarListaMenu {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: auto;
+    width: 100; */
+}
+
+.
+
+.miCarousel {
+  height: 550px;
+}
+.IndicadoresCarousel {
+  background-color: gray;
+  color: black;
+}
+.tituloBanner {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.parrafoBanner{
+  color: black;
+  font-size: 18px;
+  text-shadow: 10px 10px 10px white
+}
+
+.col-lg-4new {
+    flex: 0 0 auto;
+    width: 25%;
+}

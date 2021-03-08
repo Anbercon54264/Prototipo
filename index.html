@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Prototipo</title>
+  </head>
+
+  <body>
+    <!-- inicio menu -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Covid-19</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse navBarListaMenu"
+            id="navbarCollapse"
+          >
+            <ul class="navbar-nav mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled active"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Mas...</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- fin menu -->
+    <main>
+      <!-- inicio carousel -->
+      <div
+        id="myCarousel"
+        class="carousel slide car miCarousel"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators IndicadoresCarousel">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="bd-placeholder-img"
+              width="100%"
+              height="550"
+              src="./assets/img/Oficina.jpg"
+              alt="AntesC19"
+            />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h2 class="tituloBanner">Oficina antes de Covid-19</h2>
+                <p class="parrafoBanner">
+                  Antes del Covid-19, ir a trabajar, en la mayoria de los casos
+                  implicaba tener que transladarse a una oficina o a un lugar
+                  especifico para desempeñarse laboralmente.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="bd-placeholder-img"
+              width="100%"
+              height="550"
+              src="./assets/img/HomeOffice.jpg"
+              alt=""
+            />
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h2 class="tituloBanner">Durante la Cuarentena</h2>
+                <p class="parrafoBanner">
+                  Algunas empresas(las que pudieron) optaron por implementar el
+                  teletrabajo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="bd-placeholder-img"
+              width="100%"
+              height="550"
+              src="./assets/img/Despues3.jpg"
+              alt=""
+            />
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2 class="tituloBanner">LA NUEVA NORMALIDAD.</h2>
+                <p class="parrafoBanner">
+                  El mundo empieza a volver a la "NORMALIDAD" pero para llegar a
+                  esto se tienen que implementar PROTOCOLOS DE BIO-SEGURIDAD.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- fin carousel -->
+
+      <!-- Marketing messaging and featurettes
+        ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4new">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="./assets/img/Tapabocas.jpg"
+              alt=""
+            />
+            <h3>Tapabocas</h3>
+            <p>
+              Uno de los primeros protocolos de bio-seguridad que se
+              implemetaron con el Covid-19.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="http://www.fcv.org/corp/noticias/prensa/164-como-usar-de-forma-correcta-el-tapabocas"
+                >Mas Información &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4new">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="./assets/img/DistanciaS.jpg"
+              alt=""
+            />
+            <h3>Distancia Social</h3>
+            <p>
+              Mantener la una distacia prudente entre todos para evitar que el
+              contagio se propagara.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://kidshealth.org/es/parents/coronavirus-social-distancing-esp.html"
+                >Conoce Mas &raquo;</a
+              >
+            </p>
+          </div>
+
+          <div class="col-lg-4new">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="./assets/img/LavadoManos.jpg"
+              alt=""
+            />
+            <h3>Lavar Manos</h3>
+            <p>
+              Se recomendo y es muy importanre cada dos ó tres horas para ayudar
+              a prevenir el contagio
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://es.wikipedia.org/wiki/Confinamiento_por_la_pandemia_de_COVID-19"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4new">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="./assets/img/Cuatentena.png"
+              alt=""
+            />
+            <h3>Cuarentena</h3>
+            <p>
+              La ultima y mas importante decision que se tomo en le mundo fue
+              entrar en confianmiento total.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://es.wikipedia.org/wiki/Confinamiento_por_la_pandemia_de_COVID-19"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Personal Escencial
+              <span class="text-muted"
+                >Nadie es mas importante para ayudar a los contagiados.</span
+              >
+            </h2>
+            <p class="lead">
+              Con el personal medico tenemos una deuda impagable mas que la
+              economica es el hecho de que dia a dia expusieron su vida con tal
+              de ayudar a las personas contagiadas, incluso muchos de ellos
+              perdieron la vida, en todo el mundo estamos mas que agradecidos
+              con todos y cada uno de ellos
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="./assets/img/PersonalE.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Cuidado Propio
+              <span class="text-muted"
+                >Llegamos al punto en que debemos aceptar la nueva
+                "NORMALIDAD".</span
+              >
+            </h2>
+            <p class="lead">
+              Vivir con el covid se convirtio en lo normal, esperando que la
+              vacuna sea la solucion, cada uno debe se responsable se su cuidado
+              y del cuidado de los suyos manteniendo los protocolos de seguidad
+              que cada quien crea convenientes, el uso del tapabocas, el lavado
+              de manos, la distancia social y solo salir si es necesario.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="./assets/img/DespuesCovid.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              2020 Un año para olvidar
+              <span class="text-muted"
+                >Algunos mas que otros pero seguro que todos queremos olvidad el
+                2020</span
+              >
+            </h2>
+            <p class="lead">
+              El año 2020 fue un año bastante duro y diferente no solo por el
+              tema Covid-19 que sin duda fue el "evento" mas importante, pero
+              tambien por todos los otros acontecimeintos que tuvieron lugar
+              entre otros los incendios en australia, crisis economica, el
+              avispon asesion, los videos "Ovnis",Beirut y muchas otras que no
+              quiero mencionar
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="./assets/img/2020.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          &copy; Pagina Creada Por Andres Bernal en Bootcamp de desarrollo web en BIT 2021 &middot;
+          <!-- <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
+        </p>
+      </footer>
+    </main>
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
